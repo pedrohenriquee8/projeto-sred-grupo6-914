@@ -17,7 +17,7 @@ Projeto solicitado pelo docente Alaelson Jatobá para as disciplinas de Infraest
 
 |Rede|Gateway|Máscara|Broadcast|
 |----|-------|-------|---------|
-|192.168.14.0|192.168.14.80|255.255.255.240|192.168.14.95|
+|192.168.14.0|192.168.14.81|255.255.255.240|192.168.14.95|
 
 <br>
 
