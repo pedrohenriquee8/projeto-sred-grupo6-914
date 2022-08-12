@@ -1,8 +1,8 @@
-# Projeto de Redes
+# Projeto 2º Bimestre das Disciplinas de Infraestrutura e Serviços de Redes (PRIR/SRED e ISRE)
 Projeto solicitado pelo docente Alaelson Jatobá para as disciplinas de Infraestrutura e Serviços de Redes (PRIR/SRED e ISRE).
 
 |Grupo 6|
-|-------|
+|-------|-------|
 |Bianca Laiany|blbrn1@aluno.ifal.edu.br|
 |Pedro Henrique|phbb1@aluno.ifal.edu.br|
 |Pedro Vinícius|pvns1@aluno.ifal.edu.br|
