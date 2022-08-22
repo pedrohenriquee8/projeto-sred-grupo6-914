@@ -2,8 +2,8 @@
 
 <h2>Sumário</h2>
 
-- [Conceitos](https://github.com/pedrohenriquee8/redes-grupo6-914/edit/main/projeto-2b-sred/README.md#conceitos)
-- [Objetivo](https://github.com/pedrohenriquee8/redes-grupo6-914/edit/main/projeto-2b-sred/README.md#objetivo)
+- [Conceitos](https://github.com/pedrohenriquee8/redes-grupo6-914/tree/main/projeto-2b-sred#conceitos)
+- [Objetivo](https://github.com/pedrohenriquee8/redes-grupo6-914/tree/main/projeto-2b-sred#objetivo)
 
 
 <h3>Conceitos</h3>
