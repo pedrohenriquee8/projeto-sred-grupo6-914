@@ -6,3 +6,4 @@
 
 - [Etapa 1: Configuração do Ambiente Virtual](https://github.com/pedrohenriquee8/redes-grupo6-914/blob/main/projeto-2b-sred/Ambiente.md)
 - [Etapa 3: Acesso Remoto via SSH](https://github.com/pedrohenriquee8/redes-grupo6-914/blob/main/projeto-2b-sred/AcessoRemoto.md)
+- [Etapa 5: Serviço de Nomes Estático](https://github.com/pedrohenriquee8/redes-grupo6-914/blob/main/projeto-2b-sred/ServicoNomesEstatico.md)
