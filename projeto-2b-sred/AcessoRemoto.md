@@ -30,7 +30,7 @@ Password: ```adminifal```
 Nesse sentido, foi preciso colocar os comandos com base nas respectivas máquinas, por exemplo: ```$ sudo hostnamectl set-hostname bianca01``` para a VM01-PC01-BiancaL.
 
 <p>Figura 1: Atribuindo o nome do Hostname.</p>
-<img src="figuresProject/ThirdStage/HostnameBianca.jpg" alt="Atribuindo o nome do Hostname." title="Figura 1: Atribuindo o nome do Hostname." width="800">
+<img src="figuresProject/ThirdStage/HostnameBianca.jpg" alt="Atribuindo o nome do Hostname." title="Figura 1: Atribuindo o nome do Hostname.">
 
 - **Passo 3:** Instalar o servidor SSH. Para isso, antes de tudo, é essencial:
 
@@ -46,6 +46,9 @@ Com isso, para realizar a instalação do SSH, torna-se necessário digitar o co
 
 - **Passo 4:** Verificar o status das portas do sistema. Para isso, é fundamental inserir ```netstat -an | grep LISTEN.``` Dessa forma, tal comando verifica se as conexões TCP na porta 22 estão como **LISTENING**.
 
+<p>Figura 2: Verificação do status das portas do sistema.</p>
+<img src="figuresProject/ThirdStage/GrepListen.png" alt="Verificação do status das portas do sistema." title="Figura 2: Verificação do status das portas do sistema.">
+
 - **Passo 5:** Ativar o firewall. Isso deve ocorrer a fim de garantir o funcionamento correto do controle de acesso que se deve ter para configurar o firewall para conexão remota na porta via protocolo SSH 22. Por isso, deve digitar os seguintes comandos:
 
   - ```sudo ufw status``` - verifica o status do firewall;
@@ -53,8 +56,8 @@ Com isso, para realizar a instalação do SSH, torna-se necessário digitar o co
   - ```sudo ufw enable``` - ativa o firewall;
   - ```sudo ufw status``` - verifica o status do firewall.
 
-<p>Figura 2: Verificação do status do Firewall.</p>
-<img src="figuresProject/ThirdStage/StatusFirewall.jpg" alt="Verificação do status do Firewall." title="Figura 2: Verificação do status do Firewall." width="800">
+<p>Figura 3: Verificação do status do Firewall.</p>
+<img src="figuresProject/ThirdStage/StatusFirewall.jpg" alt="Verificação do status do Firewall." title="Figura 3: Verificação do status do Firewall.">
 
 - **Passo 6:** Alterar as configurações de rede. Para isso, tem-se que realizar os seguintes passos:
 
@@ -78,4 +81,4 @@ Com isso, para realizar a instalação do SSH, torna-se necessário digitar o co
 De: VM01-PC01-BiancaL <br>
 Para: VM02-PC02-Thayna
 
-Com isso, para efetuar tal atividade, basta inserir no terminal do servidor VM01-PC01-BiancaL o comando ```$ ssh administrador@192.168.14.85``` para realizar a conexão com êxito.
+Com isso, para efetuar tal atividade, basta inserir, no terminal do servidor VM01-PC01-BiancaL, o comando ```$ ssh administrador@192.168.14.85``` para realizar a conexão com êxito.
