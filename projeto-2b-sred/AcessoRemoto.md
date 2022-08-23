@@ -75,10 +75,19 @@ Com isso, para realizar a instalação do SSH, torna-se necessário digitar o co
 
 |Endereços IP|Descrição|Hostnames|
 |-------|---------|---------|
-|192.168.14.82<br>192.168.14.83|VM01-PC01-BiancaL<br>VM02-PC01-BiancaL|bianca1<br>bianca2|
-|192.168.14.84<br>192.168.14.85|VVM01-PC02-Thayna<br>VM02-PC02-Thayna|thayna1<br>thayna2|
+|192.168.14.81<br>192.168.14.82|VM01-PC01-BiancaL<br>VM02-PC01-BiancaL|bianca1<br>bianca2|
+|192.168.14.83<br>192.168.14.84|VVM01-PC02-Thayna<br>VM02-PC02-Thayna|thayna1<br>thayna2|
 
-De: VM01-PC01-BiancaL <br>
-Para: VM02-PC02-Thayna
+- **Aplicação:**
+ 
+ <p>Tabela 4: Orientação acerca da conexão a ser feita via SSH.</p>
+ 
+|Orientação|
+|----------|
+|De: VM01-PC01-Thayna|
+|Para: VM02-PC01-BiancaL|
 
-Com isso, para efetuar tal atividade, basta inserir, no terminal do servidor VM01-PC01-BiancaL, o comando ```$ ssh administrador@192.168.14.85``` para realizar a conexão com êxito.
+Nesse cenário, antes de tudo, para efetuar tal atividade, a verificação da configuração de rede das Máquinas Virtuais faz-se necessária, tendo em vista que precisam estar em **Modo Bridge**, outrossim, conectadas via cabos Ethernet. Assim sendo, basta inserir, no terminal do servidor VM01-PC01-Thayna, o comando ```$ ssh administrador@192.168.14.82``` para realizar a conexão com êxito. 
+
+<p>Figura 4: Exemplo do uso do SSH.</p>
+<img src="figuresProject/ThirdStage/sshEndereco82.png" alt="Exemplo do uso do SSH." title="Figura 4: Exemplo do uso do SSH.">
