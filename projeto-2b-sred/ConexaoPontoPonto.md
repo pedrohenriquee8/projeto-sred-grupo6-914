@@ -16,7 +16,7 @@ Password: ```adminifal```
   - Aplicar as mudanças realizadas por intermédio do comando ```$ sudo netplan apply```.
   
 <p>Figura 1: Configurações do netplan do VM01-PC04-PedroV e do VM02-PC04-PedroV.</p>
-<img src="" alt="Configurações do netplan do VM01-PC04-PedroV e do VM02-PC04-PedroV." title="Figura 1: Configurações do netplan do VM01-PC04-PedroV e do VM02-PC04-PedroV.">
+<img src="figuresProject/SecondStage/ConfiguracoesPedroV.png" alt="Configurações do netplan do VM01-PC04-PedroV e do VM02-PC04-PedroV." title="Figura 1: Configurações do netplan do VM01-PC04-PedroV e do VM02-PC04-PedroV.">
 
 - **Passo 3:** Realizar o mesmo processo para as Máquinas Virtuais ```VM01-PC03-PedroH``` e ```VM02-PC03-PedroH```.
 
@@ -27,22 +27,25 @@ Password: ```adminifal```
   - Aplicar as mudanças realizadas por intermédio do comando ```$ sudo netplan apply```.
 
 <p>Figura 2: Configurações do netplan do VM01-PC03-PedroH e do VM02-PC03-PedroH.</p>
-<img src="" alt="Configurações do netplan do VM01-PC03-PedroH e do VM02-PC03-PedroH." title="Figura 2: Configurações do netplan do VM01-PC03-PedroH e do VM02-PC03-PedroH.">
+<img src="figuresProject/SecondStage/ConfiguracoesPedroH.png" alt="Configurações do netplan do VM01-PC03-PedroH e do VM02-PC03-PedroH." title="Figura 2: Configurações do netplan do VM01-PC03-PedroH e do VM02-PC03-PedroH.">
 
 - **Passo 4:**  Para finalizar os procedimentos de configuração, ´é de suma importância conectar os cabos Ethernet nos dois PCs e configurar a rede para **Modo Bridge** nas suas VMs. Segue abaixo a configuração: 
 
 <p>Figura 3: Configurações de Rede no Modo Bridge.</p>
-<img src="" alt="Configurações de Rede no Modo Bridge." title="Figura 3: Configurações de Rede no Modo Bridge.">
+<img src="figuresProject/SecondStage/ModoBridge.png" alt="Configurações de Rede no Modo Bridge." title="Figura 3: Configurações de Rede no Modo Bridge.">
 
 - **Aplicação:** 
 
-Para concluir esta etapa com êxito, faz-se necessário digitar o comando ping entre as Máquinas Virtuais e verificar o envio e a recepção de pacotes. Assim sendo, tem-se como exemplo:
+Para concluir esta etapa com êxito, faz-se necessário digitar o comando ping entre as Máquinas Virtuais e verificar o envio e a recepção de pacotes, verificando, a priori, se as suas Configurações de Rede estão conectadas ao Modo Bridge. Assim sendo, tem-se como exemplo:
 
   - Ping da VM01-PC04-PedroV para VM02-PC03-PedroH <br>
     ```$ ping 192.168.14.86```
     
+<p>Figura 4: Comando ping da VM01-PC04-PedroV para VM02-PC03-PedroH.</p>
+<img src="figuresProject/SecondStage/PingPedroHtoPedroV.png" alt="Comando ping da VM01-PC04-PedroV para VM02-PC03-PedroH." title="Figura 4: Comando ping da VM01-PC04-PedroV para VM02-PC03-PedroH.">
+    
   - Ping da VM01-PC03-PedroH para VM02-PC04-PedroV <br>
     ```$ ping 192.168.14.88```
-
-
-
+    
+<p>Figura 5: Comando ping da VM01-PC03-PedroH para VM02-PC04-PedroV.</p>
+<img src="figuresProject/SecondStage/PingPedroHtoPedroV.png" alt="Comando ping da VM01-PC03-PedroH para VM02-PC04-PedroV." title="Figura 5: Comando ping da VM01-PC03-PedroH para VM02-PC04-PedroV.">
