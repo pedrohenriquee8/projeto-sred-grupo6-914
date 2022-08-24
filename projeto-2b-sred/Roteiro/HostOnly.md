@@ -13,17 +13,15 @@ Password: ```adminifal```
   - Inserir manualmente os campos do Adaptador de acordo com a imagem abaixo:
 
 <p>Figura 1: Acessando a opção Host Network Manager.</p>
-<img src="" alt="Acessando a opção Host Network Manager." title="Figura 1: Acessando a opção Host Network Manager.">
+<img src="../figuresProject/FourthStage/HostNetworkManager.png" alt="Acessando a opção Host Network Manager." title="Figura 1: Acessando a opção Host Network Manager.">
 
+<p>Figura 2: Verificando as configurações do Adaptador.</p>
+<img src="../figuresProject/FourthStage/ConfiguraçoesAdaptador.png" alt="Verificando as configurações do Adaptador." title="Figura 2: Verificando as configurações do Adaptador.">
+  
   - Configurar o ```Servidor DHCP``` no adaptador VBoxNet0, devendo estar de acordo com a imagem abaixo:
 
-<p>Figura 2: Verificando as configurações dos endereços na aba Servidor DHCP.</p>
-<img src="" alt="Verificando as configurações dos endereços na aba Servidor DHCP." title="Figura 2: Verificando as configurações dos endereços na aba Servidor DHCP.">
-
-  -  Verificar a configuração das interfaces usando o Terminal com o comando ```$ ifconfig -a```, observando a existência da interface ```vboxnet0```.
-
-<p>Figura 3: Verificando a existência da interface vboxnet0.</p>
-<img src="" alt="Verificando a existência da interface vboxnet0." title="Figura 3: Verificando a existência da interface vboxnet0.">
+<p>Figura 3: Verificando as configurações dos endereços na aba Servidor DHCP.</p>
+<img src="../figuresProject/FourthStage/ConfiguracoesDHCP.png" alt="Verificando as configurações dos endereços na aba Servidor DHCP." title="Figura 3: Verificando as configurações dos endereços na aba Servidor DHCP.">
 
 - **Passo 3:** Adicionar um adaptador ao HostOnly em uma VM.
   
@@ -31,19 +29,22 @@ Password: ```adminifal```
   - Acessar as configurações de Rede da VM desejada;
   - No Adaptador 2, deve-se habilitar a opção ```Habilitar Placa de Rede``` e selecionar no campo ```Conectado a```: ```Placa de rede exclusiva de hospedeiro (host-only)```, declarando o campo ```Nome``` como ```vboxnet0```.
 
+<p>Figura 4: Conexão ao HostOnly.</p>
+<img src="../figuresProject/FourthStage/ConfiguraçoesPedro.png" alt="Figura 4: Conexão ao HostOnly." title="Figura 4: Conexão ao HostOnly.">
+
 - **Passo 4:** Ativar as configurações da interface na VM para o servidor DHCP.
 
   - Verificar a existência da interface ```enp0s8``` mediante o comando ```$ ifconfig -a```;
   - Feita a verificação, torna-se necessário acessar a configuração das interfaces no netplan. Assim sendo, deve-se digitar o comando ```$ sudo nano /etc/netplan/01-netcfg.yaml``` e ativar o DHCP para o Adaptador 2 (enp0s8), como demonstra a imagem abaixo:
 
-<p>Figura 4: Acessando as configurações do netplan e ativando o DHCP para o Adaptador 2.</p>
-<img src="" alt="Acessando as configurações do netplan e ativando o DHCP para o Adaptador 2." title="Figura 4: Acessando as configurações do netplan e ativando o DHCP para o Adaptador 2.">
+<p>Figura 5: Acessando as configurações do netplan e ativando o DHCP para o Adaptador 2.</p>
+<img src="../figuresProject/FourthStage/VM01-PC04-PedroV.png" alt="Acessando as configurações do netplan e ativando o DHCP para o Adaptador 2." title="Figura 5: Acessando as configurações do netplan e ativando o DHCP para o Adaptador 2.">
 
   - Com isso, aplicam-se as alterações feitas mediante o uso do comando ```$ sudo netplan apply```;
   - Para verificar se a aplicação foi, de fato, implementada, utiliza-se o comando ```$ ifconfig -a```, como exibe a imagem abaixo:
 
-<p>Figura 5: Verificando as configurações de interface do netplan.</p>
-<img src="" alt="Verificando as configurações de interface do netplan." title="Figura 5: Verificando as configurações de interface do netplan.">
+<p>Figura 6: Verificando as configurações de interface do netplan.</p>
+<img src="" alt="Verificando as configurações de interface do netplan." title="Figura 6: Verificando as configurações de interface do netplan.">
 
 - **Aplicação:**
  
@@ -58,5 +59,5 @@ Sob essa perspectiva, a fim de concluir com êxito o acesso via SSH oriundo do H
 
 Assim sendo, basta inserir, no terminal do servidor Host-Only (VM01-PC04-PedroV), o comando ```$ ssh administrador@192.168.14.85``` para realizar a conexão com êxito.
 
-<p>Figura 6: Exemplo do uso do SSH oriundo do Host-Only.</p>
-<img src="" alt="Exemplo do uso do SSH oriundo do Host-Only." title="Figura 6: Exemplo do uso do SSH oriundo do Host-Only.">
+<p>Figura 7: Exemplo do uso do SSH oriundo do Host-Only.</p>
+<img src="" alt="Exemplo do uso do SSH oriundo do Host-Only." title="Figura 7: Exemplo do uso do SSH oriundo do Host-Only.">
