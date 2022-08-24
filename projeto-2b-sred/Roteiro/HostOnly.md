@@ -13,7 +13,7 @@ Password: ```adminifal```
   - Inserir manualmente os campos do Adaptador de acordo com a imagem abaixo:
 
 <p>Figura 1: Acessando a opção Host Network Manager.</p>
-<img src="../figuresProject/FourthStage/HostNetworkManager.png" alt="Acessando a opção Host Network Manager." title="Figura 1: Acessando a opção Host Network Manager.">
+<img src="../figuresProject/FourthStage/HostNetworkManager.jpg" alt="Acessando a opção Host Network Manager." title="Figura 1: Acessando a opção Host Network Manager.">
 
 <p>Figura 2: Verificando as configurações do Adaptador.</p>
 <img src="../figuresProject/FourthStage/ConfiguraçoesAdaptador.png" alt="Verificando as configurações do Adaptador." title="Figura 2: Verificando as configurações do Adaptador.">
@@ -44,7 +44,7 @@ Password: ```adminifal```
   - Para verificar se a aplicação foi, de fato, implementada, utiliza-se o comando ```$ ifconfig -a```, como exibe a imagem abaixo:
 
 <p>Figura 6: Verificando as configurações de interface do netplan.</p>
-<img src="" alt="Verificando as configurações de interface do netplan." title="Figura 6: Verificando as configurações de interface do netplan.">
+<img src="../figuresProject/FourthStage/ifconfigHosOnly.png" alt="Verificando as configurações de interface do netplan." title="Figura 6: Verificando as configurações de interface do netplan.">
 
 - **Aplicação:**
  
