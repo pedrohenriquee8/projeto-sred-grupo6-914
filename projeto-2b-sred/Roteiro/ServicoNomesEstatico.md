@@ -36,9 +36,9 @@
 - A terceira aplicação corresponde ao acesso via SSH ao domínio (FQDN) da VM02-PC01-BiancaL logado no usuário thayna. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC04-PedroV.
 
 <p>Figura 6: Acessando a Máquina Virtual VM02-PC01-BiancaL via domínio (FQDN).</p>
-<img src="../figuresProject/FifthStage/VMPedroH-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname." title="Figura 6: Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname.">
+<img src="../figuresProject/FifthStage/VMPedroV-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname." title="Figura 6: Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname.">
 
 - A quarta aplicação abrange o acesso via SSH ao aliase da VM01-PC01-BiancaL logado no usuário pedrov. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC02-Thayna.
 
 <p>Figura 7: Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase.</p>
-<img src="../figuresProject/FifthStage/VMPedroH-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase." title="Figura 7: Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase.">
+<img src="../figuresProject/FifthStage/VMThayna-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase." title="Figura 7: Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase.">
