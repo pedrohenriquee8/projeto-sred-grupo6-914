@@ -34,7 +34,7 @@ Password: ```adminifal```
 <p>Figura 3: Configurações de Rede no Modo Bridge.</p>
 <img src="../figuresProject/SecondStage/ModoBridge.png" alt="Configurações de Rede no Modo Bridge." title="Figura 3: Configurações de Rede no Modo Bridge.">
 
-- **Aplicação:** 
+<h3>Aplicação: </h3> 
 
 Para concluir esta etapa com êxito, faz-se necessário digitar o comando ping entre as Máquinas Virtuais e verificar o envio e a recepção de pacotes, verificando, a priori, se as suas Configurações de Rede estão conectadas ao Modo Bridge. Assim sendo, tem-se como exemplo:
 

@@ -46,7 +46,7 @@ Password: ```adminifal```
 <p>Figura 6: Verificando as configurações de interface do netplan.</p>
 <img src="../figuresProject/FourthStage/ifconfigHosOnly.png" alt="Verificando as configurações de interface do netplan." title="Figura 6: Verificando as configurações de interface do netplan.">
 
-- **Aplicação:**
+<h3>Aplicação: </h3>
  
 Sob essa perspectiva, a fim de concluir com êxito o acesso via SSH oriundo do Host-Only, é de suma importância que as Máquinas Virtuais estejam com as Configurações de Rede no **Modo Bridge**, outrossim, conectadas por intermédio de cabos Ethernet. Desse modo, segue um exemplo aplicado pela equipe, tendo o objetivo de exibir o processo da conexão realizada entre as máquinas.
 

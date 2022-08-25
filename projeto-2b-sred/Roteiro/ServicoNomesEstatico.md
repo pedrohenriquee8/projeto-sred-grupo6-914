@@ -21,7 +21,7 @@
 
 - **Passo 5:** Para concluir o projeto com êxito, faz-se necessário utilizar o ```comando ssh``` e acessar todas as Máquinas Virtuais, cada uma com a configuração de rede no modo Bridge, mediante o uso de cabos Ethernet conectados a um switch. Nesse sentido, tais passos podem ser verificados no próximo tópico: Aplicação.
 
-- **Aplicação:**
+<h3>Aplicação: </h3>
 
 - A primeira aplicação consiste no acesso via SSH ao endereço IP da VM02-PC02-Thayna logado no usuário pedroh. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC01-BiancaL.
 

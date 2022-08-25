@@ -78,7 +78,7 @@ Com isso, para realizar a instalação do SSH, torna-se necessário digitar o co
 |192.168.14.81<br>192.168.14.82|VM01-PC01-BiancaL<br>VM02-PC01-BiancaL|bianca1<br>bianca2|
 |192.168.14.83<br>192.168.14.84|VVM01-PC02-Thayna<br>VM02-PC02-Thayna|thayna1<br>thayna2|
 
-- **Aplicação:**
+<h3>Aplicação: </h3>
  
  <p>Tabela 4: Orientação acerca da conexão a ser feita via SSH.</p>
  
