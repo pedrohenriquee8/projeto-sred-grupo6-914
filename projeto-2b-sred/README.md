@@ -4,7 +4,7 @@
 
 - [Conceitos](https://github.com/pedrohenriquee8/redes-grupo6-914/tree/main/projeto-2b-sred#conceitos)
 - [Objetivo](https://github.com/pedrohenriquee8/redes-grupo6-914/tree/main/projeto-2b-sred#objetivo)
-
+- [Roteiro](https://github.com/pedrohenriquee8/redes-grupo6-914/blob/main/projeto-2b-sred/Roteiro.md)
 
 <h3>Conceitos</h3>
 
@@ -13,5 +13,17 @@
 <h3>Objetivo</h3>
 
 - Em linhas gerais, o projeto tem como principal objetivo a criação de um ambiente de rede mediante o uso de máquinas virtuais (VirtualBox) com o Sistema Operacional Ubuntu Server. Nesse cenário, é de suma importância destacar que cada integrante ficou responsável pela criação de duas máquinas virtuais distintas, logo, totalizando oito máquinas virtuais para a equipe. Desse modo, o acesso remoto via SSH e comando ping tornam-se metas a serem cumpridas e permitirem a conclusão do projeto com êxito. Para isso, o uso de cabos Ethernet e de um switch para realizar a conexão entre as máquinas virtuais faz-se fundamental, como representa a imagem abaixo. Por fim, a fim de destacar as principais etapas adotadas na construção da infraestrutura e dos serviços da rede, observa-se o [Roteiro do Projeto](https://github.com/pedrohenriquee8/redes-grupo6-914/blob/main/projeto-2b-sred/Roteiro.md).
+
 <p>Figura 1: Topologia da Rede Virtualizada para o desenvolvimento do Projeto.</p>
-<img src="figuresInfrastructure/TopologiaRede.jpg" alt="Topologia da Rede" title="Figura 1: Topologia da Rede Virtualizada." width="800">
+<img src="figuresInfrastructure/TopologiaRede.jpg" alt="Topologia da Rede" title="Figura 1: Topologia da Rede Virtualizada.">
+
+- Sob outra perspectiva, é de suma importância visualizar a Infraestrutura da Rede diante do aspecto Físico, ou seja, a Topologia Física. Assim sendo, segue as imagens que demonstram tal disposição da Rede.
+
+<p>Figura 2: Topologia Física da Rede - Primeira Apresentação do Switch.</p>
+<img src="figuresInfrastructure/ImagemSwitch.jpeg" alt="Topologia Física da Rede - Primeira Apresentação do Switch." title="Figura 2: Topologia Física da Rede - Primeira Apresentação do Switch.">
+
+<p>Figura 3: Topologia Física da Rede - Segunda Apresentação do Switch.</p>
+<img src="figuresInfrastructure/ImagemSwitch(2).jpeg" alt="Topologia Física da Rede - Segunda Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Segunda Apresentação do Switch." height="800">
+
+<p>Figura 4: Topologia Física da Rede - Terceira Apresentação do Switch.</p>
+<img src="figuresInfrastructure/figuresInfrastructure/ImagemSwitch(3).jpeg" alt="Topologia Física da Rede - Terceira Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Terceira Apresentação do Switch.">
