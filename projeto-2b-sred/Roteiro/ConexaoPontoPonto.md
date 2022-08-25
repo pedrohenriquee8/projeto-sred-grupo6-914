@@ -1,6 +1,6 @@
 <h3>Etapa 2: Conexão Ponto a Ponto</h3>
 
-- Nessa etapa, a princípio, deve-se criar uma rede ponto a ponto com 4 Máquinas Virtuais, via cabos Ethernet e switch. Podemos Desse modo, pode-se tomar, como exemplo, a conexão entre as díspares máquinas: ```VM01-PC04-PedroV```, ```VM02-PC04-PedroV```, ```VM01-PC03-PedroH``` e ```VM02-PC03-PedroH```.
+- Nessa etapa, a princípio, deve-se criar uma rede ponto a ponto com 4 Máquinas Virtuais, via cabos Ethernet e um switch. Desse modo, pode-se tomar, como exemplo, a conexão entre as díspares máquinas: ```VM01-PC04-PedroV```, ```VM02-PC04-PedroV```, ```VM01-PC03-PedroH``` e ```VM02-PC03-PedroH```.
 
 - **Passo 1:** Fazer o login nas Máquinas Virtuais, caso ainda não estejam logadas. 
 
