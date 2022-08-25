@@ -13,7 +13,7 @@ Password: ```adminifal```
   - Inserir manualmente os campos do Adaptador de acordo com a imagem abaixo:
 
 <p>Figura 1: Acessando a opção Host Network Manager.</p>
-<img src="../figuresProject/FourthStage/HostNetworkManager.jpg" alt="Acessando a opção Host Network Manager." title="Figura 1: Acessando a opção Host Network Manager.">
+<img src="../figuresProject/FourthStage/HostNetworkManager.jpg" alt="Acessando a opção Host Network Manager." title="Figura 1: Acessando a opção Host Network Manager." height="700">
 
 <p>Figura 2: Verificando as configurações do Adaptador.</p>
 <img src="../figuresProject/FourthStage/ConfiguraçoesAdaptador.png" alt="Verificando as configurações do Adaptador." title="Figura 2: Verificando as configurações do Adaptador.">
@@ -45,19 +45,3 @@ Password: ```adminifal```
 
 <p>Figura 6: Verificando as configurações de interface do netplan.</p>
 <img src="../figuresProject/FourthStage/ifconfigHosOnly.png" alt="Verificando as configurações de interface do netplan." title="Figura 6: Verificando as configurações de interface do netplan.">
-
-<h3>Aplicação: </h3>
- 
-Sob essa perspectiva, a fim de concluir com êxito o acesso via SSH oriundo do Host-Only, é de suma importância que as Máquinas Virtuais estejam com as Configurações de Rede no **Modo Bridge**, outrossim, conectadas por intermédio de cabos Ethernet. Desse modo, segue um exemplo aplicado pela equipe, tendo o objetivo de exibir o processo da conexão realizada entre as máquinas.
-
- <p>Tabela 1: Orientação acerca da conexão a ser feita via SSH pelo Host-Only.</p>
- 
-|Orientação|
-|----------|
-|De: Host-Only|
-|Para: VM01-PC03-PedroH|
-
-Assim sendo, basta inserir, no terminal do servidor Host-Only (VM01-PC04-PedroV), o comando ```$ ssh administrador@192.168.14.85``` para realizar a conexão com êxito.
-
-<p>Figura 7: Exemplo do uso do SSH oriundo do Host-Only.</p>
-<img src="" alt="Exemplo do uso do SSH oriundo do Host-Only." title="Figura 7: Exemplo do uso do SSH oriundo do Host-Only.">
