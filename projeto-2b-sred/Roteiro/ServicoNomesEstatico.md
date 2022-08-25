@@ -19,12 +19,26 @@
 <p>Figura 3: Acessando os usuários criados na Máquina Virtual.</p>
 <img src="../figuresProject/FifthStage/AcessoUsers.png" alt="Acessando os usuários criados na Máquina Virtual." title="Figura 3: Acessando os usuários criados na Máquina Virtual.">
 
-- **Passo 5:** Para concluir o projeto com êxito, faz-se necessário utilizar o ```comando ssh``` e acessar todas as Máquinas Virtuais, cada uma com a configuração de rede no modo Bridge, mediante o uso de cabos Ethernet conectados a um switch.
+- **Passo 5:** Para concluir o projeto com êxito, faz-se necessário utilizar o ```comando ssh``` e acessar todas as Máquinas Virtuais, cada uma com a configuração de rede no modo Bridge, mediante o uso de cabos Ethernet conectados a um switch. Nesse sentido, tais passos podem ser verificados no próximo tópico: Aplicação.
 
 - **Aplicação:**
 
-<p>Figura 4: Acessando a Máquina Virtual VM01-PC01-BiancaL via FQDN.</p>
-<img src="../figuresProject/FifthStage/SSHBianca1.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via FQDN." title="Figura 4: Acessando a Máquina Virtual VM01-PC01-BiancaL via FQDN.">
+- A primeira aplicação consiste no acesso via SSH ao endereço IP da VM02-PC02-Thayna logado no usuário pedroh. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC01-BiancaL.
 
-<p>Figura 5: Acessando a Máquina Virtual VM02-PC03-PedroH via FQDN.</p>
-<img src="../figuresProject/FifthStage/SSHPedroH2.png" alt="Acessando a Máquina Virtual VM02-PC03-PedroH via FQDN." title="Figura 5: Acessando a Máquina Virtual VM02-PC03-PedroH via FQDN">
+<p>Figura 4: Acessando a Máquina Virtual VM02-PC02-Thayna via endereço IP.</p>
+<img src="../figuresProject/FifthStage/VMBianca-SSH.jpg" alt="Acessando a Máquina Virtual VM02-PC02-Thayna via Endereço IP." title="Figura 4: Acessando a Máquina Virtual VM02-PC02-Thayna via Endereço IP.">
+
+- A segunda aplicação compreende o acesso via SSH ao hostname da VM01-PC01-BiancaL logado no usuário thayna. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC03-PedroH.
+
+<p>Figura 5: Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname.</p>
+<img src="../figuresProject/FifthStage/VMPedroH-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname." title="Figura 5: Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname.">
+
+- A terceira aplicação corresponde ao acesso via SSH ao domínio (FQDN) da VM02-PC01-BiancaL logado no usuário thayna. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC04-PedroV.
+
+<p>Figura 6: Acessando a Máquina Virtual VM02-PC01-BiancaL via domínio (FQDN).</p>
+<img src="../figuresProject/FifthStage/VMPedroH-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname." title="Figura 6: Acessando a Máquina Virtual VM01-PC01-BiancaL via hostname.">
+
+- A quarta aplicação abrange o acesso via SSH ao aliase da VM01-PC01-BiancaL logado no usuário pedrov. Desse modo, com o auxílio da imagem abaixo, verifica-se que tal processo foi efetuado pela Máquina Virtual VM01-PC02-Thayna.
+
+<p>Figura 7: Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase.</p>
+<img src="../figuresProject/FifthStage/VMPedroH-SSH.png" alt="Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase." title="Figura 7: Acessando a Máquina Virtual VM01-PC01-BiancaL via aliase.">
