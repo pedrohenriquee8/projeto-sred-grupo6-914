@@ -26,4 +26,4 @@
 <img src="figuresInfrastructure/ImagemSwitch(2).jpeg" alt="Topologia Física da Rede - Segunda Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Segunda Apresentação do Switch." height="800">
 
 <p>Figura 4: Topologia Física da Rede - Terceira Apresentação do Switch.</p>
-<img src="figuresInfrastructure/figuresInfrastructure/ImagemSwitch(3).jpeg" alt="Topologia Física da Rede - Terceira Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Terceira Apresentação do Switch.">
+<img src="figuresInfrastructure/ImagemSwitch(3).jpeg" alt="Topologia Física da Rede - Terceira Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Terceira Apresentação do Switch." height="800">
