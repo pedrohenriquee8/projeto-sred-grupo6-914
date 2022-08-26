@@ -23,7 +23,19 @@
 <img src="figuresInfrastructure/ImagemSwitch.jpeg" alt="Topologia Física da Rede - Primeira Apresentação do Switch." title="Figura 2: Topologia Física da Rede - Primeira Apresentação do Switch.">
 
 <p>Figura 3: Topologia Física da Rede - Segunda Apresentação do Switch.</p>
-<img src="figuresInfrastructure/ImagemSwitch(2).jpeg" alt="Topologia Física da Rede - Segunda Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Segunda Apresentação do Switch." height="800">
+<img src="figuresInfrastructure/ImagemSwitch(2).jpeg" alt="Topologia Física da Rede - Segunda Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Segunda Apresentação do Switch." height="700">
 
 <p>Figura 4: Topologia Física da Rede - Terceira Apresentação do Switch.</p>
-<img src="figuresInfrastructure/ImagemSwitch(3).jpeg" alt="Topologia Física da Rede - Terceira Apresentação do Switch." title="Figura 3: Topologia Física da Rede - Terceira Apresentação do Switch." height="800">
+<img src="figuresInfrastructure/ImagemSwitch(3).jpeg" alt="Topologia Física da Rede - Terceira Apresentação do Switch." title="Figura 4: Topologia Física da Rede - Terceira Apresentação do Switch." height="700">
+
+<p>Figura 5: Topologia Física da Rede - Quarta Apresentação do Switch.</p>
+<img src="figuresInfrastructure/CaboSwitch.jpg" alt="Topologia Física da Rede - Quarta Apresentação do Switch." title="Figura 5: Topologia Física da Rede - Quarta Apresentação do Switch." height="700">
+
+<p>Figura 6: Topologia Física da Rede - Primeira Apresentação da Conexão do cabo Ethernet ao PC.</p>
+<img src="figuresInfrastructure/CaboEthernetPC.jpg" alt="Topologia Física da Rede - Primeira Apresentação da Conexão do cabo Ethernet ao PC." title="Figura 6: Topologia Física da Rede - Conexão do cabo Ethernet ao PC." height="700">
+
+<p>Figura 7: Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC.</p>
+<img src="figuresInfrastructure/CaboEthernetPC(2).jpg" alt="Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC." title="Figura 6: Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC." height="700">
+
+<p>Figura 8: Topologia Física da Rede - Visão Geral.</p>
+<img src="figuresInfrastructure/CabosEthernetPCs.jpg" alt="Topologia Física da Rede - Visão Geral." title="Figura 8: Topologia Física da Rede - Visão Geral." height="700">
