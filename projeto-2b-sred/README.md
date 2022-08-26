@@ -35,7 +35,7 @@
 <img src="figuresInfrastructure/CaboEthernetPC.jpg" alt="Topologia Física da Rede - Primeira Apresentação da Conexão do cabo Ethernet ao PC." title="Figura 6: Topologia Física da Rede - Conexão do cabo Ethernet ao PC." height="700">
 
 <p>Figura 7: Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC.</p>
-<img src="figuresInfrastructure/CaboEthernetPC(2).jpg" alt="Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC." title="Figura 6: Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC." height="700">
+<img src="figuresInfrastructure/CaboEthernetPC(2).jpg" alt="Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC." title="Figura 7: Topologia Física da Rede - Segunda Apresentação da Conexão do cabo Ethernet ao PC." height="700">
 
 <p>Figura 8: Topologia Física da Rede - Visão Geral.</p>
 <img src="figuresInfrastructure/CabosEthernetPCs.jpg" alt="Topologia Física da Rede - Visão Geral." title="Figura 8: Topologia Física da Rede - Visão Geral." height="700">
