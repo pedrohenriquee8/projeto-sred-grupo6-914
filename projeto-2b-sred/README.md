@@ -1,3 +1,5 @@
+[Retornar para a Introdução :smile:](https://github.com/pedrohenriquee8/redes-grupo6-914)
+
 # Visão Geral
 
 <h2>Sumário</h2>
