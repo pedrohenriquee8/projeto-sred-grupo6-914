@@ -1,4 +1,5 @@
-[Retornar para a Visão Geral. :smile:](https://github.com/pedrohenriquee8/redes-grupo6-914/tree/main/projeto-2b-sred)
+[Retornar para a Visão Geral. :smile:](https://github.com/pedrohenriquee8/redes-grupo6-914/tree/main/projeto-2b-sred) <br>
+[Retornar para o Roteiro. :grin:](https://github.com/pedrohenriquee8/redes-grupo6-914/blob/main/projeto-2b-sred/Roteiro.md)
 
 <h3>Etapa 4: Acesso Remoto via SSH com HostOnly</h3>
 
